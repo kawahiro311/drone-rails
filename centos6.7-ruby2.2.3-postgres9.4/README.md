@@ -1,4 +1,4 @@
-# centos6.7-ruby2.2.3-postgres9.4 docker image
+# centos6.7-ruby2.2.3-postgres9.4
 
 ## sample .drone.yml
 
