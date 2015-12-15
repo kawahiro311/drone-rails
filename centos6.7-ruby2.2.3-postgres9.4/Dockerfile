@@ -2,7 +2,7 @@ FROM centos:6.7
 
 # Install packages for building ruby
 RUN yum -y update
-RUN yum install -y git gcc gcc-c++ make tar wget openssl-devel readline-devel sqlite-devel zlib zlib-devel
+RUN yum install -y git gcc gcc-c++ make tar wget openssl-devel readline-devel sqlite-devel zlib zlib-devel file
 RUN yum install -y libcurl-devel libyaml-devel libffi-devel bzip2 autoconf automake libtool bison libxml2-devel libxslt-devel
 RUN yum clean all
 
