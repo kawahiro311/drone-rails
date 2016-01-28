@@ -4,7 +4,7 @@
 
 ```
 build:
-  image: kawahiro311/centos6.7-ruby2.3.0-postgres9.4
+  image: kawahiro311/centos6.7-ruby2.3-postgres9.4
   commands:
     - service postgresql-9.4 start
     - export PATH=$PATH:/root/.rbenv/shims
